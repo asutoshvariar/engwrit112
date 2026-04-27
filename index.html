@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Grain of Sand</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+        <div class="slides slide1" style="z-index: 1;">
+            <h1>
+                A Grain of Sand
+            </h1>
+            <div class="divider">
+                <div class="line"></div>
+                <img src="assets/airplane-shot.png" class="plane">
+                <div class="line"></div>
+            </div>
+            <p class="subtitle" style="margin-top: -3%">
+                Why it's important to understand we don't control everything.
+            </p>
+            <p style="font-weight: 200; font-size: 0.9rem; margin-top: 3%">
+                by Asutosh Variar
+            </p>
+        </div>
+        <div class="slides" id="slide2" style="z-index: 2;">
+            <h2>
+                <span style="border-bottom: 0.2rem solid #020205;">The Size of the Haystack</span>
+            </h2>
+            <p style="margin-top: 5%; text-align: left; padding-left: 5%;">
+                On average, people watch about <span class="subtitle" >200</span> videos on TikTok <span class="subtitle">per day</span>, accounting for an hour of usage.
+                <br><br>How many TikTok videos do you think get made <span class="subtitle">per minute?</span>
+            </p>
+            <div class="container-games">
+                <!-- <div class="game-card">
+                    <p class="subtitle">
+                        How many hours of content are uploaded onto YouTube every minute?
+                    </p>
+
+                    <div class="counter">
+                        <button onclick="changeValue('yt', -100)"><span>-100</span></button>
+                        <span id="yt-value">0</span>
+                        <button onclick="changeValue('yt', 100)"><span>+100</span></button>
+                    </div>
+
+                    <button class="check-btn" onclick="checkAnswer('yt')">Check</button>
+                    <div id="yt-dots" class="dots-container"></div>
+                </div> -->
+
+                <div class="game-card">
+                    <div id="guess-title">
+                        <p class="subtitle">
+                            Guess:
+                        </p>
+                    </div>
+
+                    <div class="counter">
+                        <button onclick="changeValue('tt', -1000)"><span>-1000</span></button>
+                        <span id="tt-value">0</span>
+                        <button onclick="changeValue('tt', 1000)"><span>+1000</span></button>
+                    </div>
+
+                    <button class="check-btn" onclick="checkAnswer('tt')">Check</button>
+                    <div id="tt-dots" class="dots-container" style="padding-top: 2%; z-index: 3;"></div> <!-- Dots for TikTok -->
+                </div>
+            </div>
+        </div>
+        <div class="slides" style="z-index: 4; background-color: #F6F5F5;" id="slide3">
+            <h2>
+                <span style="border-bottom: 0.2rem solid #020205;">The Problem</span>
+            </h2>
+            <p style="margin-top: 5%; text-align: left; padding-left: 5%; width: 90%">
+                Creators at the top might tell you that all it took to get there was <span class="subtitle">hard work.</span>
+                However, they often ignore the <span class="subtitle">vast amounts of luck</span> it took to get there.
+            </p>
+            <p style="margin-top: 5%; text-align: left; padding-left: 5%; width: 90%">
+                By believing that we can control <span class="subtitle">everything</span> about our life, we may <span class="subtitle">worsen</span> our mental and physical health for <span class="subtitle">no gain</span>.
+                We're also more likely to fall for the half-truths "gurus" tell us.
+            </p>
+            <div class="two-column-container" style="display: flex; justify-content: space-between; gap: 5%; width: 90%; margin-left: 5%; margin-top: 5%;">
+                <div class="column">
+                    <p class="subtitle">Only 4% of creators make a livable wage on their content.</p>
+                    <p>Surely more than 4% work hard?</p>
+                    <!-- Dots for 4% bordered and 96% black -->
+                    <div id="creator-dots" class="dots-container" style="padding-top: 10%; margin-left: 20%; width: 60%"></div>
+                </div>
+                <div class="column" style="align-items: center; justify-content: center">
+                    <p class="subtitle">How do you profit most in a gold rush?</p>
+                    <p>You sell shovels.</p>
+                    <div style="width: 70%; align-items: center; justify-content: center; margin-left: 15%;">
+                    <p style="margin-top: 26%;">Please <span class="subtitle">consider the source.</span> If someone makes the claim that you (and only you) are responsible for your failures, <span class="subtitle">they often have something to sell you.</span></p>
+                    <p style="margin-top: 10%;">This also gives them an easy way out, because they can just say you didn't try hard enough.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slides slide1" style="z-index: 5; background-color: #F6F5F5;">
+            <h1 style="font-size: 5rem; margin-bottom: -2%; border-bottom: 0.25rem solid #020205;">Survivorship Bias</h1>
+            <p class="subtitle" style="font-size: 2rem; width: 90%">
+                A logical error that occurs when only the successful outcomes of a selection process are considered.
+            </p>
+        </div>
+        <div class="slides" style="z-index: 5; background-color: #F6F5F5;">
+            <h2><span style="border-bottom: 0.2rem solid #020205;">Why Does This Matter?</span></h2>
+            <p style="margin-top: 5%; text-align: left; padding-left: 5%; width: 90%">
+                Survivorship bias is <span class="subtitle">more powerful than ever.</span> With near-infinite content, the 1% looks like the 50%. This distortion makes us feel inadequate when we're actually doing fine.
+            </p>
+            <p style="margin-top: 5%; text-align: left; padding-left: 5%; width: 90%;">
+                The best antidote? <span class="subtitle">Real people</span>. Talk to friends. Connect locally. <span class="subtitle">Progress is never linear</span>, and it's much easier to believe that when you're not comparing yourself to algorithmic highlights.
+            </p>
+            <div class="slide1">
+                <p style="margin-top: 8%; text-align: center; width: 90%;" class="subtitle">
+                    In a culture that sells effortless success, embrace the normality of the life you lead.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

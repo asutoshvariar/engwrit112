@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Grain of Sand</title>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+        <div class="slides slide1" style="z-index: 1;">
+            <h1>
+                A Grain of Sand
+            </h1>
+            <div class="divider">
+                <div class="line"></div>
+                <img src="assets/airplane-shot.png" class="plane">
+                <div class="line"></div>
+            </div>
+            <p class="subtitle" style="margin-top: -3%">
+                Understanding survivorship bias in an age of digital amplification
+            </p>
+            <p style="font-weight: 200; font-size: 0.9rem; margin-top: 3%">
+                by Pradeep Variar
+            </p>
+        </div>
+        <div class="slides" id="slide2" style="z-index: 2;">
+            <h2>
+                <span style="border-bottom: 0.2rem solid #020205;">The Scale of Content</span>
+            </h2>
+            <p style="margin-top: 3%; text-align: left; padding-left: 5%; width: 90%">
+                When you scroll through social media, you're seeing curated highlights. But what you don't see is the <span class="subtitle">massive volume</span> of content behind those few viral moments.
+            </p>
+            <p style="margin-top: 3%; text-align: left; padding-left: 5%; width: 90%;">
+                On average, people watch about <span class="subtitle">200 videos on TikTok per day</span>. But how many videos get made <span class="subtitle">per minute?</span>
+            </p>
+            <div class="container-games">
+                <div class="game-card">
+                    <div id="guess-title">
+                        <p class="subtitle">
+                            Make your guess:
+                        </p>
+                    </div>
+
+                    <div class="counter">
+                        <button onclick="changeValue('tt', -1000)"><span>-1000</span></button>
+                        <span id="tt-value">0</span>
+                        <button onclick="changeValue('tt', 1000)"><span>+1000</span></button>
+                    </div>
+
+                    <button class="check-btn" onclick="checkAnswer('tt')">Check</button>
+                    <div id="tt-dots" class="dots-container" style="padding-top: 2%; z-index: 3;"></div>
+                </div>
+            </div>
+            <p style="margin-top: 5%; text-align: left; padding-left: 5%; width: 90%; font-size: 0.95rem; font-weight: 300; color: #555;">
+                You're seeing a tiny fraction of what exists. The platform's algorithm decides which grain of sand gets magnified.
+            </p>
+        </div>
+        <div class="slides" style="z-index: 4; background-color: #F6F5F5;" id="slide3">
+            <h2>
+                <span style="border-bottom: 0.2rem solid #020205;">The Illusion of Control</span>
+            </h2>
+            <p style="margin-top: 5%; text-align: left; padding-left: 5%; width: 90%">
+                Successful creators tell you it was <span class="subtitle">hard work</span>. They rarely mention the <span class="subtitle">luck, timing, and privilege</span> that got them there.
+            </p>
+            <p style="margin-top: 5%; text-align: left; padding-left: 5%; width: 90%">
+                When we believe we control <span class="subtitle">everything</span> about our outcomes, we <span class="subtitle">harm ourselves</span> chasing impossible standards. We ignore survivorship bias and fall for the promises of "gurus."
+            </p>
+            <div class="two-column-container" style="display: flex; justify-content: space-between; gap: 5%; width: 90%; margin-left: 5%; margin-top: 8%; align-items: flex-start;">
+                <div class="column">
+                    <p class="subtitle">Only 4% of creators make a livable wage</p>
+                    <p style="margin-top: 1.5%; font-size: 1rem;">But don't they all work hard?</p>
+                    <div id="creator-dots" class="dots-container" style="padding-top: 5%; margin-left: 10%; width: 80%"></div>
+                    <p style="margin-top: 3%; font-size: 0.9rem; font-weight: 300; color: #666;">
+                        <span style="font-weight: 700; color: #020205;">4 make it.</span> 96 don't—but you only hear from the 4.
+                    </p>
+                </div>
+                <div class="column" style="text-align: left;">
+                    <p class="subtitle" style="text-align: left;">How do you profit most in a gold rush?</p>
+                    <p style="margin-top: 2%; text-align: left; font-size: 1.1rem;">You sell shovels.</p>
+                    <p style="margin-top: 3%; font-size: 0.95rem; font-weight: 300; color: #666; text-align: left;">
+                        The real winners aren't creators. They're the platforms and the courses promising shortcuts. They've already won the lottery.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="slides slide1" style="z-index: 5; background-color: #F6F5F5;">
+            <h1 style="font-size: 5rem; margin-bottom: -2%; border-bottom: 0.25rem solid #020205;">Survivorship Bias</h1>
+            <p class="subtitle" style="font-size: 2rem; width: 90%">
+                A logical error where we only see successful outcomes and mistake them for the full picture.
+            </p>
+        </div>
+        <div class="slides" style="z-index: 5; background-color: #F6F5F5;">
+            <h2><span style="border-bottom: 0.2rem solid #020205;">What Now?</span></h2>
+            <p style="margin-top: 5%; text-align: left; padding-left: 5%; width: 90%">
+                Survivorship bias is more powerful than ever. With infinite content, the 1% looks like the 50%. This distortion makes us feel inadequate when we're actually doing fine.
+            </p>
+            <p style="margin-top: 5%; text-align: left; padding-left: 5%; width: 90%; font-weight: 300;">
+                The best antidote? <span class="subtitle">Real people</span>. Talk to friends. Connect locally. Progress is never linear—it's much easier to believe that when you're not comparing yourself to algorithmic highlights.
+            </p>
+            <p style="margin-top: 8%; text-align: center; font-size: 1rem; font-weight: 300; color: #888;">
+                In a culture that sells effortless success, embrace the quiet life instead.
+            </p>
+        </div>
+    </div>
+    <script src="index2.js"></script>
+  </body>
+</html>
