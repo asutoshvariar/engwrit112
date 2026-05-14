@@ -1,0 +1,4 @@
+baseURL = 'https://asutoshvariar.github.io/'
+locale = 'en-us'
+title = 'ENGWRIT 112'
+theme = 'ananke'
